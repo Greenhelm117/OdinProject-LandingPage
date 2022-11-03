@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headerUpper, .footer{
+
+    background-color: #1F2937;
+}
+
+button{
+
+    background-color: #3882f6;
+}
+
+.contentCenter {
+
+    background-color: #e5e7eb;
+}
+
