@@ -97,6 +97,18 @@ body{
 }
 
 
+.placeHolder {
+
+    background-color: gray;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 
 
 
@@ -116,9 +128,21 @@ button{
 
     display: flex;
     flex-direction: column;
+    
+    align-items: center;
+
+    
 
 }
 
+.informationText {
+
+    font-size: 36px;
+    font-weight: bolder;
+
+    margin-bottom: 25px;
+
+}
 
 .card {
 
@@ -127,8 +151,11 @@ button{
     border: 5px solid;
     border-color: #3882f6;
 
+    align-items: center;
+    justify-content: center;
+
     margin: 10px;
-    border-color: #1F2937;
+    
 
 }
 
@@ -137,6 +164,7 @@ button{
 
     display: flex;
     justify-content: space-evenly;
+    
 
 }
 
@@ -147,6 +175,8 @@ button{
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    margin: 15px;
 }
 
 .descriptions {
@@ -171,18 +201,43 @@ button{
 .contentCenter {
 
     background-color: #e5e7eb;
-}
-
-
-.placeHolder {
-
-    background-color: gray;
-    height: 250px;
-    width: 500px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.quoteTexts {
+
+    width: 800px;
+}
+
+.quote {
+
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+
+}
+
+.speaker {
+
+    text-align: right;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 ul {
