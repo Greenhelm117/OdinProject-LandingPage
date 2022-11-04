@@ -111,6 +111,27 @@ button{
     background-color: #3882f6;
 }
 
+
+.contentUpper {
+
+    display: flex;
+
+}
+
+
+.card {
+
+    width: 200px;
+    height: 200px;
+    border: 5px solid;
+    border-color: #3882f6;
+
+    margin: 10px;
+    border-color: #1F2937;
+
+}
+
+
 .contentCenter {
 
     background-color: #e5e7eb;
